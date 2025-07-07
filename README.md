@@ -98,4 +98,4 @@ Ensure code style consistency and include tests for new features.
 
 ## License
 
-MIT License © 2025 Your Name
+MIT License © 2025 Dmitry Pirs
