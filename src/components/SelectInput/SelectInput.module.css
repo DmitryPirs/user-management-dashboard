@@ -1,0 +1,36 @@
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #5b26ee; /* цвет из вашей кнопки */
+  border-radius: 10px;
+  font-size: 14px;
+  color: #31148f; /* темный фиолетовый */
+  background-color: white;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+  outline: none;
+  font-family: inherit;
+  resize: vertical; /* для textarea */
+}
+
+/* Фокус на input, textarea, select */
+select:focus {
+  border-color: #31148f; /* более темный фиолетовый */
+  box-shadow: 0 0 8px rgba(91, 38, 238, 0.5);
+}
+
+/* Ошибки (опционально) */
+select.error {
+  border-color: #e74c3c;
+  box-shadow: 0 0 8px rgba(231, 76, 60, 0.5);
+}
+
+/* Disabled */
+select:disabled {
+  background-color: #31148f;
+  color: #aaa;
+  cursor: not-allowed;
+}
